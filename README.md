@@ -89,3 +89,21 @@ try: You do your operations here; ...................... except(Exception1[, Exc
 
 ![HASIL ERROR 6](https://user-images.githubusercontent.com/115801823/208606250-85cea2f7-e46b-4ecd-9817-bdb27f5f378d.PNG)
 
+### Melempar Pengecualian 
+#### Contoh :
+- Pengecualian dapat berupa string, kelas, atau objek. Sebagian besar pengecualian adalah pengecualian dari inti Python menimbulkan adalah kelas dengan argumen=argumen yang merupakan turunan dari kelas. Mendefinisikan pengecualian baru cukup mudah dan dapat dilakukan sebagai berikut:
+
+![ERROR 7](https://user-images.githubusercontent.com/115801823/208607306-cc142e64-99fa-4495-989e-d564f0f427a2.PNG)
+
+![HASIL ERROR 7](https://user-images.githubusercontent.com/115801823/208607354-3ae3b52a-46ea-48b5-90b0-90d4d826a789.PNG)
+
+### Pengecualian yang ditetapkan pengguna
+- Python juga memungkinkan Anda membuat pengecualian sendiri dengan menurunkan kelas-kelas dari yang standar pengecualian bawaan.
+- Berikut adalah contoh-contoh yang terkait dengan RuntimeError. Di sini, kelas dibuat yang merupakan subkelas dari subkelas RuntimeError. Ini berguna saat anda perlu menampilkan tampilan informasi yang lebih spesifik saat e pengecualian tertangkap.
+- Di blok try, pengecualian yang ditentukan pengguna dimunculkan dan ditangkap di blok except. Itu variabel e digunakan untuk membuat instance dari kelas Networkerror.
+
+![ERROR 8](https://user-images.githubusercontent.com/115801823/208607442-e6b2a824-c627-4ec0-855b-0555ebb4479d.PNG)
+
+![HASIL ERROR 8](https://user-images.githubusercontent.com/115801823/208607489-e22afa55-f783-4e0f-95ec-0b0ed15216f7.PNG)
+
+SEKIAN TERIMA KASIH.
